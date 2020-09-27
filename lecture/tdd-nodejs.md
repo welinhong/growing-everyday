@@ -13,6 +13,7 @@
     - V8 엔진: 자바스크립트 코드를 해석해 주는 해석기
 - 이벤트 기반의 비동기 I/O 프레임 워크
 ![NodeJS Processing Model](/assets/image/Nodejs-Processing-Model.png)
+
 *출처: https://www.researchgate.net/figure/Nodejs-Processing-Model_fig38_322896255*
     - 이벤트 기반: 클라이언트가 보내는 모든 요청을 이벤트로 처리한다.
     - 비동기 I/O: 무거운 잡들은 Non-blocking Worker(worker thread)에 전달해서 비동기로 처리한다.
